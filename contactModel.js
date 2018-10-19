@@ -5,6 +5,10 @@ var contactSchema = mongoose.Schema({
     name: {
         type: String,
         required: true
+    },   
+    company: {
+        type: String,
+        required: true
     },
     email: {
         type: String,
